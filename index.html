@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- linking the css file -->
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Zaki's Store</title>
+  </head>
+  <body>
+    <!-- creating a div with 3 elements -->
+    <div class="input-container">
+      <h1>Zaki's store</h1>
+      <!-- creating a div with 2 inputs -->
+      <div class="inputs-con">
+        <input type="text" id="barcode" placeholder="Scan Barcode" />
+
+        <input type="text" id="quant" placeholder="Quantity" />
+      </div>
+      <button type="button" class="add-to" title="add to cart ">
+        add to cart
+      </button>
+    </div>
+    <!-- creating a div for the table and validation button -->
+    <div class="table-container">
+      <table>
+        <tr>
+          <th>Product</th>
+          <th>Quantity</th>
+          <th>Total</th>
+        </tr>
+      </table>
+      <p class="no-ele"></p>
+      <p class="total-res"></p>
+      <a
+        href="./pages/after-validation.html"
+        title="validate sale"
+        class="submit"
+      >
+        validate sale
+      </a>
+    </div>
+    <!-- linking the javaScript Code -->
+    <script src="./src/main.js"></script>
+  </body>
+</html>

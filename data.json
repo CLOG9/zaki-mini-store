@@ -1,0 +1,28 @@
+[
+    {
+        "id":"94891616",
+        "name":"chess board",
+        "price":1200
+    }
+    ,{
+        "id":"88855144",
+        "name":"perfume for men",
+        "price":3200 
+    },{
+        "id":"55668998",
+        "name":"wireless speaker",
+        "price":5000 
+    },{
+        "id":"98498988",
+        "name":"phone case",
+        "price":300 
+    },{
+        "id":"44455611",
+        "name":"keyboard XXL",
+        "price":1000 
+    },{
+        "id":"111225547",
+        "name":"monitor XL",
+        "price":8000
+    }
+]
