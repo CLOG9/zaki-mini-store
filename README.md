@@ -6,6 +6,7 @@ file meets your likes. lets dive in this documentation.
 ## Content
 
 * Website overview
+* Data
 * Source Code
   * Folder Structure
     * assets
@@ -28,6 +29,20 @@ this is the first page of the **Zaki's store** (in both screens)
 and after you fill the two inputs with proper info a, add to cart then validate the sale you'll get redirected to this page .
 
 ![secondpage](./assets/second-page.png) ![secondf](./assets/secondf.png)
+
+## Data
+
+we only add six products in this web page here's every product with the bar code
+
+|product|barcode|
+|:-----:|:-----:|
+|chess board|94891616|
+|perfume for men|88855144|
+|wireless speaker|55668998|
+|phone case|98498988|
+|keyboard XXL|44455611|
+|monitor XL|111225547|
+*if there is any error or you find this info wrong check the **data.json** file*
 
 ## Source Code
 
